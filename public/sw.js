@@ -1,4 +1,4 @@
-const CACHE = 'coach-club-v4';
+const CACHE = 'coach-club-v5';
 const BASE = self.registration.scope;
 const ASSETS = [BASE, BASE + 'manifest.webmanifest', BASE + 'icon.svg'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting())));
