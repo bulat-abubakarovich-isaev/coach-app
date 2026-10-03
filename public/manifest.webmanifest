@@ -1,0 +1,12 @@
+{
+  "name": "Клуб — учёт тренировок",
+  "short_name": "Клуб",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f5f2",
+  "theme_color": "#285943",
+  "lang": "ru",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
