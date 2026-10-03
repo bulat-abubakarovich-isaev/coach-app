@@ -546,7 +546,7 @@ button.roster-pay.unpaid span{color:#db806d}
 .students-home .premium-welcome{margin-bottom:18px}
 .students-toolbar{display:flex;flex-direction:column;gap:12px;margin-bottom:16px}
 .students-search{display:flex;align-items:center;gap:10px;width:100%;padding:12px 14px;border:1px solid #b99c7455;border-radius:14px;background:#121413c7;box-sizing:border-box}
-.students-search-icon{flex:0 0 auto;color:#a8a191;font:800 14px/1 Arial,sans-serif}
+.students-search-icon{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;color:#a8a191;font:800 22px/1 Arial,sans-serif}
 .students-search input{flex:1;min-width:0;border:0;background:transparent;color:#f7f0df;font:600 14px/1.2 Arial,sans-serif;outline:none}
 .students-search input::placeholder{color:#7f796c}
 .students-sort{display:grid!important;grid-template-columns:1fr 1fr;gap:8px;width:100%}
@@ -574,6 +574,9 @@ button.roster-pay.unpaid span{color:#db806d}
 .students-group-block + .students-group-block{margin-top:18px;padding-top:8px;border-top:1px solid #c8ae8624}
 .students-group-block .groups-title{margin-bottom:8px}
 .students-list-panel > .groups-title{margin-bottom:10px}
+.students-groups-list{display:flex;flex-direction:column;gap:0}
+.students-groups-list .groups-title{margin-bottom:10px}
+.students-groups-list .group-home-row{width:100%}
 
 .students-row-meta{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-width:0}
 .students-row-meta b{display:block;font:800 15px/1.2 Arial,sans-serif;color:#fff8eb}
