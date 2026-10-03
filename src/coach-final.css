@@ -580,6 +580,7 @@ button.roster-pay.unpaid span{color:#db806d}
 .students-row-meta small{display:block;margin:0;font:600 12px/1.25 Arial,sans-serif;color:#a8a191}
 .students-row .students-row-meta{flex:1}
 
-.athlete-age-cell{display:flex;flex-direction:column;align-items:flex-start}
-.athlete-age-cell>b{margin-bottom:4px}
-.athlete-birth-sub{display:block!important;margin:0!important;font:600 11px/1.3 Arial,sans-serif!important;letter-spacing:0!important;text-transform:none!important;color:#8f8778!important}
+.athlete-age-cell{display:flex;flex-direction:column;align-items:center;text-align:center}
+.athlete-age-cell>small:first-child{width:100%;text-align:center}
+.athlete-age-cell>b{width:100%;margin-bottom:4px;text-align:center}
+.athlete-birth-sub{display:block!important;margin:0!important;width:100%;text-align:center!important;font:600 11px/1.3 Arial,sans-serif!important;letter-spacing:0!important;text-transform:none!important;color:#8f8778!important}
